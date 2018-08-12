@@ -1,0 +1,53 @@
+.root {
+    width: 60%;
+    margin: auto;
+}
+
+.header {
+    min-height: 50px;
+    margin: 50px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links p:hover {
+    color: aqua;
+}
+
+.festival, .coffee, .dream, .alps {
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+
+.main_content img{
+    width: 100%;
+}
+
+.main_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p, h2 {
+    color: grey;
+}
+ .footer_button{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+ .footer_button > a{
+    color: grey;
+    padding: 10px;
+    border: 1px solid grey;
+    text-decoration: none;
+ }
+
+ .footer_button > a:hover {
+     color: aqua;
+ }
