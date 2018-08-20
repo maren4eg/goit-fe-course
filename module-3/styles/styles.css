@@ -5,7 +5,7 @@
 
 .wrapper {
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
 }
 
 
@@ -42,7 +42,7 @@ main {
 .content-box {
     width: 470px;
     display: inline-block;
-    margin:0 0 100px 17px;
+    margin: 0 0 100px 40px;
 }
 
 
