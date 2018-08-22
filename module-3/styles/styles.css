@@ -26,7 +26,7 @@
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(23, 23, 23);
+    color: #626262;
 }
 
 
@@ -54,8 +54,9 @@ main {
 
 
 .content-box p, h3 {
-    color: rgb(23, 23, 23);
+    color: #626262;
     font-family: 'Playfair Display', serif;
+    line-height: 25px;
 }
 
 
@@ -69,7 +70,8 @@ main {
 .content-box h3 {
     margin: 10px 0;
     line-height: 22px;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 20px 0;
 }
 
 
@@ -85,7 +87,7 @@ main {
     display: inline-block;
     text-align: center;
     padding: 15px;
-    border: 2px solid rgb(23, 23, 23);
+    border: 2px solid #626262;
 }
 
 
