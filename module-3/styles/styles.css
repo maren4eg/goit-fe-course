@@ -15,13 +15,13 @@
 }
 
 
-.header-menu {
+.header-item {
     display: inline-block;
     margin: 30px 0;
 }
 
 
-.header-menu > a {
+.header-item > a {
     margin: 0 25px;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
@@ -30,7 +30,7 @@
 }
 
 
-.header-menu > a:hover {
+.header-item > a:hover {
     color: aqua;
 }
 
@@ -40,7 +40,7 @@ main {
 }
 
 
-.content-box {
+.content-post {
     width: 470px;
     display: inline-block;
     margin:0 0 70px 5px;
@@ -48,26 +48,27 @@ main {
 }
 
 
-.content-box img {
+.content-post img {
     width: 100%;
 }
 
 
-.content-box p, h3 {
+.content-post p, h3 {
     color: #626262;
     font-family: 'Playfair Display', serif;
     line-height: 25px;
 }
 
 
-.image-caption {
+.main-heading {
     margin: 10px 0;
     text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
 }
 
 
-.content-box h3 {
+.content-post h3 {
     margin: 10px 0;
     line-height: 22px;
     font-size: 30px;
@@ -75,22 +76,17 @@ main {
 }
 
 
-.button {
+.load-more {
     display: block;
     text-align: center;
     margin-bottom: 40px;
 }
 
 
-.load-more {
+.load-more a{
     font-family: 'Playfair Display', serif;
     display: inline-block;
     text-align: center;
     padding: 15px;
     border: 2px solid #626262;
-}
-
-
-.load-more:hover {
-    color: aqua;
 }
