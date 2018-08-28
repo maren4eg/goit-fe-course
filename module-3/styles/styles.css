@@ -15,22 +15,23 @@
 }
 
 
-.header-item {
+.nav-item {
     display: inline-block;
     margin: 30px 0;
 }
 
 
-.header-item > a {
+.nav-item > a {
     margin: 0 25px;
     font-family: 'Playfair Display', serif;
+    font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
     color: #626262;
 }
 
 
-.header-item > a:hover {
+.nav-item > a:hover {
     color: aqua;
 }
 
@@ -53,40 +54,43 @@ main {
 }
 
 
-.content-post p, h3 {
+.content-post-heading {
+
+    margin: 30px 0 0 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: #626262;
+}
+
+
+.content-post-header {
+    line-height: 22px;
+    font-size: 33px;
+    padding: 30px 0;
+    color: #626262;
+}
+
+
+.content-post-paragraph {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+.button {
+    text-decoration: none;
     color: #626262;
     font-family: 'Playfair Display', serif;
-    line-height: 25px;
-}
-
-
-.main-heading {
-    margin: 10px 0;
-    text-transform: uppercase;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
-}
-
-
-.content-post h3 {
-    margin: 10px 0;
-    line-height: 22px;
-    font-size: 30px;
-    padding: 20px 0;
-}
-
-
-.load-more {
-    display: block;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-
-.load-more a{
-    font-family: 'Playfair Display', serif;
     display: inline-block;
-    text-align: center;
     padding: 15px;
-    border: 2px solid #626262;
+    margin: 30px 420px;
+    border: 1px solid #626262;
+}
+
+.button:active {
+    color: aqua;
+    border: 2px solid aqua;
 }
