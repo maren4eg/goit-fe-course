@@ -1,100 +1,87 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 .wrapper {
-    margin: 0 auto;
-    width: 960px;
+  margin: 0 auto;
+  width: 960px;
 }
 
-
-.header-navigation{
-    text-align: center;
-    margin: 30px 0;
+.header-navigation {
+  text-align: center;
+  margin: 30px 0;
 }
-
 
 .nav-item {
-    display: inline-block;
-    margin: 30px 0;
+  display: inline-block;
+  margin: 30px 0;
 }
-
 
 .nav-item > a {
-    margin: 0 25px;
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #626262;
+  margin: 0 25px;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #626262;
 }
-
 
 .nav-item > a:hover {
-    color: aqua;
+  color: aqua;
 }
-
-
-main {
-    margin: 0 auto;
-}
-
 
 .content-post {
-    width: 470px;
-    display: inline-block;
-    text-align: center;
-    padding: 25px;
+  float: left;
+  width: 470px;
+  display: block;
+  margin-right: 20px;
 }
 
+.content-post-right {
+  margin-right: 0;
+}
 
 .content-post img {
-    width: 100%;
-    padding: 15px 0;
+  width: 100%;
+  padding: 15px 0;
 }
-
 
 .content-post-heading {
-    padding: 15px 0;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
-    color: #b4ad9e;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
 }
 
-
-.content-post-header {
-    padding: 15px 0;
-    text-align: left;
-    line-height: 22px;
-    font-size: 33px;
-    color: #626262;
+.content-post-name {
+  padding: 15px 0;
+  text-align: left;
+  line-height: 22px;
+  font-size: 33px;
+  color: #626262;
 }
-
 
 .content-post-paragraph {
-    padding: 15px 0;
-    text-align: left;
-    font-family: 'Playfair Display', serif;
-    color: #626262;
-    line-height: 1.5;
-    font-size: 15px;
+  padding: 15px 0;
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
-
 .button {
-    text-decoration: none;
-    color: #626262;
-    font-family: 'Playfair Display', serif;
-    display: inline-block;
-    padding: 15px;
-    margin: 30px 420px;
-    border: 1px solid #626262;
+  text-decoration: none;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  display: inline-block;
+  padding: 15px;
+  margin: 30px 420px;
+  border: 1px solid #626262;
 }
 
 .button:active {
-    color: aqua;
-    border: 2px solid aqua;
+  color: aqua;
+  border: 2px solid aqua;
 }
