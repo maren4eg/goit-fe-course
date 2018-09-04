@@ -31,10 +31,10 @@
 }
 
 .content-post {
-  float: left;
   width: 470px;
   display: block;
-  margin-right: 20px;
+  float: left;
+  margin: 0 20px 135px 0;
 }
 
 .content-post-right {
