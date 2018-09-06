@@ -73,13 +73,10 @@ header {
   width: 165px;
   height: 6px;
   background: #1abc9c;
-  opacity: 0;
-
-}
-
-.section-header:active:after {
   opacity: 1;
+
 }
+
 
 .block-product {
   position: relative;
@@ -177,12 +174,12 @@ header {
   width: 135px;
   height: 3px;
   background: #1abc9c;
-  opacity: 0;
-}
-
-.post-header:hover:after {
   opacity: 1;
 }
+/* 
+.post-header:hover:after {
+  opacity: 1;
+} */
 
 .post-content {
   margin-top: 40px;
