@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  position: relative;
+  background-color: #fff;
+}
+
+.header-logo {
+  display: inline-block;
+  float: left;
+  margin-top: 38px;
+  font-family: "Roboto";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0f0101;
+}
+
+.header-logo::first-letter {
+  content: "";
+  color: #1abc9c;
+  font-weight: bold;
+}
+
+.header-menu-item {
+  display: inline-block;
+  float: right;
+  margin: 43px 35px 0 0;
+}
+
+.header-menu-item:nth-child(1) {
+  margin-right: 0;
+}
+
+.header-menu-item a {
+  color: #000;
+  font-family: "Open Sans";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.header-menu-item a:hover {
+  color: #1abc9c;
+}
+
