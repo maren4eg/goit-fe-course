@@ -1,0 +1,52 @@
+.footer-content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  display: flex;
+  margin: 30px 0;
+}
+
+.footer-text p,
+.footer-text a {
+  font-size: 14px;
+}
+
+.footer-text a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: #f38181;
+  font-family: "Montserrat";
+}
+
+.footer-text p {
+  font-family: "Montserrat";
+}
+
+.footer-button {
+  text-transform: uppercase;
+  color: #fff;
+  background: #95e1d3;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+}
+
+#email {
+  width: 230px;
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: #999;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+}
