@@ -1,8 +1,12 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
 body {
   overflow-x: hidden;
   background: #e9f0fd;
 }
 .wrapper {
-  width: 1110px;
   margin: 0 auto;
 }
+

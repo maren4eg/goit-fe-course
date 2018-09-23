@@ -6,6 +6,11 @@ header {
   background-color: #fff;
 }
 
+.header-content {
+  width: 1110px;
+  margin: 0 auto;
+}
+
 .header-logo {
   display: inline-block;
   float: left;
@@ -45,4 +50,3 @@ header {
 .header-menu-item a:hover {
   color: #1abc9c;
 }
-

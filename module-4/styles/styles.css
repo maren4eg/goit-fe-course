@@ -1,207 +1,181 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    <div class="content-area">
-        <header class="header">
-            <h1 class="logo">
-                <a href="#">MoGo</a>
-            </h1>
-            <nav>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="services">
-            <div class="section-title">
-                <h2 class="section-title-title">
-                    We work with
-                    <span class="section-title-about">Amazing Services</span>
-                </h2>
-            </div>
-            <div class="section-content">
-                <div class="services-content-item">
-                    <div class="services-content-item-img">
-                        <img src="./img/alarm.png" alt="">
-                    </div>
-                    <div class="services-content-item-text">
-                        <h3 class="services-content-item-text-title">
-                            Photography
-                        </h3>
-                        <p class="services-content-item-text-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                        </p>
-                    </div>
-                </div>
-                <div class="services-content-item">
-                    <div class="services-content-item-img">
-                        <img src="./img/linegraph.png" alt="">
-                    </div>
-                    <div class="services-content-item-text">
-                        <h3 class="services-content-item-text-title">
-                            Web Design
-                        </h3>
-                        <p class="services-content-item-text-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                        </p>
-                    </div>
-                </div>
-                <div class="services-content-item">
-                    <div class="services-content-item-img">
-                        <img src="./img/comp.png" alt="">
-                    </div>
-                    <div class="services-content-item-text">
-                        <h3 class="services-content-item-text-title">
-                            Creativity
-                        </h3>
-                        <p class="services-content-item-text-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                        </p>
-                    </div>
-                </div>
-                <div class="services-content-item">
-                    <div class="services-content-item-img">
-                        <img src="./img/book.png" alt="">
-                    </div>
-                    <div class="services-content-item-text">
-                        <h3 class="services-content-item-text-title">
-                            seo
-                        </h3>
-                        <p class="services-content-item-text-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                        </p>
-                    </div>
-                </div>
-                <div class="services-content-item">
-                    <div class="services-content-item-img">
-                        <img src="./img/home.png" alt="">
-                    </div>
-                    <div class="services-content-item-text">
-                        <h3 class="services-content-item-text-title">
-                            Css/Html
-                        </h3>
-                        <p class="services-content-item-text-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                        </p>
-                    </div>
-                </div>
-                <div class="services-content-item">
-                    <div class="services-content-item-img">
-                        <img src="./img/image.png" alt="">
-                    </div>
-                    <div class="services-content-item-text">
-                        <h3 class="services-content-item-text-title">
-                            digital
-                        </h3>
-                        <p class="services-content-item-text-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="team">
-            <div class="section-title">
-                <h2 class="section-title-title">
-                    Who we are
-                    <span class="section-title-about">Meet our team</span>
-                </h2>
-                <p class="section-title-description ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
-            <div class="section-content">
-                <div class="team-content-card">
-                    <div class="team-content-card-img">
-                        <img src="./img/layer16_.png" alt="" class="img">
-                        <div class="overlay">
-                            <a href="#" class="social-link facebook" title="facebook"></a>
-                            <a href="#" class="social-link twitter" title="twitter"></a>
-                            <a href="#" class="social-link pinterest" title="pinterest"></a>
-                            <a href="#" class="social-link instagram" title="instagram"></a>
-                        </div>
-                    </div>
-                    <div class="team-content-card-description">
-                        <h3 class="team-content-card-name">
-                            Matthew Dix
-                        </h3>
-                        <p class="team-content-card-specialty">
-                            Graphic Design
-                        </p>
-                    </div>
-                </div>
-                <div class="team-content-card">
-                    <div class="team-content-card-img">
-                        <img src="./img/layer19.png" alt="" class="img">
-                        <div class="overlay">
-                            <a href="#" class="social-link facebook" title="facebook"><span class="visually-hidden">facebook</span></a>
-                            <a href="#" class="social-link twitter" title="twitter"><span class="visually-hidden">twitter</span></a>
-                            <a href="#" class="social-link pinterest" title="pinterest"><span class="visually-hidden">pinterest</span></a>
-                            <a href="#" class="social-link instagram" title="instagram"><span class="visually-hidden">instagram</span></a>
-                        </div>
-                    </div>
-                    <div class="team-content-card-description">
-                        <h3 class="team-content-card-name">
-                            Christopher Campbell
-                        </h3>
-                        <p class="team-content-card-specialty">
-                            Branding/UX design
-                        </p>
-                    </div>
-                </div>
-                <div class="team-content-card">
-                    <div class="team-content-card-img">
-                        <img src="./img/layer18.png" alt="" class="img">
-                        <div class="overlay">
-                            <a href="#" class="social-link facebook" title="facebook"></a>
-                            <a href="#" class="social-link twitter" title="twitter"></a>
-                            <a href="#" class="social-link pinterest" title="pinterest"></a>
-                            <a href="#" class="social-link instagram" title="instagram"></a>
-                        </div>
-                    </div>
-                    <div class="team-content-card-description">
-                        <h3 class="team-content-card-name">
-                            Michael Fertig
-                        </h3>
-                        <p class="team-content-card-specialty">
-                            Developer
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer">
-            <p class="copyright">© 2016 MoGo free PSD template by <a href="#">Laaqiq</a></p>
-            <form class="subscribe" action="#" method="GET">
-                <input type="text" class="subscribe-mail" placeholder=" your email...">
-                <button class="subscribe-button" type="submit">Subscribe</button>
-            </form>
-        </footer>
-    </div>
-</body>
-</html>
+﻿.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+ header {
+  min-height: 165px;
+}
+ .header-logo {
+  display: inline-block;
+  float: left;
+  margin-top: 38px;
+  font-family: "Roboto";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #898787;
+  }
+ .header-logo::first-letter {
+  content: "";
+  color: #1abc9c;
+  font-weight: bold;
+}
+ .header-menu-item {
+  display: inline-block;
+  float: right;
+  margin: 40px 0 0 31px;
+}
+ .header-menu-item a {
+  color: #000;
+  font-family: "Open Sans";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+ .header-menu-item a:hover {
+  color: #1abc9c;
+}
+ .featured-products {
+  height: 940px;
+  display: block;
+}
+ .section-header {
+  display: block;
+  position: relative;
+  margin: 14px auto 94px auto;
+  text-align: center;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #515151;
+  font-weight: bolder;
+  width: 555px;
+  height: 50px;
+}
+ .section-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: -34px auto;
+  width: 165px;
+  height: 6px;
+  background: #1abc9c;
+  opacity: 1;
+ }
+ .block-product {
+  position: relative;
+  width: 255px;
+  height: 322px;
+  background: #e9f0fd;
+  float: left;
+  margin: 0px 30px 30px 0;
+}
+ .block-product:hover .block-name{
+  background: #1abc9c;
+}
+ .block-product:hover .price {
+  background: #7fd9c7;
+}
+ .end-block {
+  margin-right: 0;
+}
+ .product-image {
+  width: 255px;
+  height: 262px;
+}
+ .block-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 40px;
+  display: inline-block;
+  color: #fff;
+  background: #323232;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 0 0 10px;
+}
+ .price {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  background: #8c8c8c;
+  height: 40px;
+  width: 20%;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0 0 10px;
+}
+ .latest-news {
+  height: 730px;
+  display: block;
+}
+ .latest-news-post {
+  float: left;
+  position: relative;
+  width: 350px;
+  height: 500px;
+  margin-right: 30px;
+}
+ .latest-news-post-right {
+  margin-right: 0;
+}
+ .news-img {
+  width: 350px;
+  height: 230px;
+}
+ .post-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #555252;
+  line-height: 25px;
+}
+ .post-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 220px;
+  margin: 175px auto;
+  width: 135px;
+  height: 3px;
+  background: #1abc9c;
+  opacity: 1;
+}
+/* 
+.post-header:hover:after {
+  opacity: 1;
+} */
+ .post-content {
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: #555252;
+}
+ .button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 160px;
+  height: 55px;
+  background: #4ec6ab;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 3px;
+ }
+ .button:active {
+  background: #1abc9c;
+} 

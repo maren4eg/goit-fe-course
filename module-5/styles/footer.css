@@ -15,6 +15,7 @@
   font-family: "Roboto";
 }
 
-.footer-content-text > span {
+.footer-content-text > a {
     color: #3c7a6e;
+    text-decoration: none;
 }
