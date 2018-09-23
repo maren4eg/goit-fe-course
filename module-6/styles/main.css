@@ -8,9 +8,10 @@
   font-family: "Kaushan Script";
   text-align: center;
   margin: 100px 0 25px 0;
+  line-height: 50px;
 }
 
-.section-header-title {
+.section-header-text > span {
   position: relative;
   font-size: 30px;
   font-family: "Montserrat";
@@ -19,7 +20,7 @@
   font-weight: 700;
 }
 
-.section-header-title::after {
+.section-header-text span::after {
   content: "";
   position: absolute;
   bottom: 0;
