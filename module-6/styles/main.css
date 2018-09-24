@@ -4,6 +4,7 @@
 }
 
 .section-header-text {
+  color: #333333;
   font-size: 24px;
   font-family: "Kaushan Script";
   text-align: center;
@@ -12,6 +13,7 @@
 }
 
 .section-header-text > span {
+  color: #333333;
   position: relative;
   font-size: 30px;
   font-family: "Montserrat";
@@ -71,17 +73,18 @@
 .section-content-text {
   font-size: 16px;
   font-family: "Roboto";
-  color: #333333;
+  color: #b3b3b3;
   line-height: 1.6;
 }
 
 .development-team-text {
+  width: 940px;
   text-align: center;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
-  margin-top: 100px;
+  margin: 100px auto 0 auto;
   font-weight: 400;
-  color: #999;
+  color: #b3b3b3;
   line-height: 30px;
 }
 
@@ -176,5 +179,5 @@
   font-size: 15px;
   font-family: "Roboto";
   font-style: italic;
-  color: #333333;
+  color: #9f9f9f;
 }
