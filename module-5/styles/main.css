@@ -2,17 +2,22 @@ main {
   margin: 0 -15px;
 }
 
-
 .main-slider {
   position: relative;
   height: 600px;
-  top: 0px;
+
 }
 .main-slider-img {
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
+
+.slider-content {
+  width: 1110px;
+  margin: 0 auto;
+}
+
 .button {
   width: 100px;
   height: 100px;
@@ -115,7 +120,7 @@ main {
 
 .product-name {
   display: block;
-  width: 200px;
+  width: 255px;
   padding: 14px;
   float: left;
   font-size: 18px;
@@ -126,15 +131,20 @@ main {
 }
 
 .price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   display: block;
   width: 55px;
   padding: 14px;
   float: right;
-  background: #8c8c8c;
-  font-size: 18px;
+  background: #ffffff;
+  opacity: 0.4;
+  /* font-size: 18px;
   font-family: "Roboto";
   color: rgb(255, 255, 255);
-  text-transform: uppercase;
+  text-transform: uppercase; */
+  
 }
 
 .block-product-links {
@@ -198,8 +208,8 @@ main {
   width: 165px;
   bottom: 85px;
   left: 45px;
-  background-color: #323232;
   background-image: url(../images/basket.svg);
+  background-color: #323232;
   font-size: 16px;
   font-family: "Roboto";
   color: #fff;

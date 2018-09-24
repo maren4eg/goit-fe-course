@@ -1,0 +1,125 @@
+.section-first-content-header {
+  font-size: 40px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 100px;
+}
+
+.section-first-content-header span {
+  font-size: 16px;
+  text-transform: none;
+  font-family: "DroidSerif";
+  color: #777777;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+
+.main-content-post {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+}
+
+.main-content-item {
+  width: 30%;
+  text-align: center;
+}
+
+.content-item-image {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #fed136;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+
+.basket {
+  background-image: url(../images/Icon-Basket.png);
+}
+
+.laptop {
+  background-image: url(../images/Icon-Laptop.png);
+}
+
+.security {
+  background-image: url(../images/Icon-Locked.png);
+}
+
+.content-item-header {
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #222222;
+  margin: 30px auto 25px auto;
+}
+
+.content-item-text {
+  font-size: 14px;
+  font-family: "RobotoSlab";
+  line-height: 1.2;
+  color: #777777;
+}
+
+/* main second section */
+.main-form {
+  margin: 0 auto;
+}
+
+.main-second-section {
+  background: #222222;
+  background-image: url(../images/Map-image.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.section-form {
+  display: flex;
+}
+
+.section-second-content-header {
+  font-size: 40px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 110px auto 120px auto;
+}
+
+.section-second-content-header span {
+  font-size: 16px;
+  text-transform: none;
+  font-family: "DroidSerif";
+  color: #777777;
+  font-weight: normal;
+}
+
+#name,
+#email,
+#subject {
+  width: 415px;
+  margin: 15px 15px 15px 0;
+  border: none;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+#textarea {
+  width: 415px;
+  height: 190px;
+  margin: 15px;
+  border: none;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#button {
+    width: 240px;
+    height: 65px;
+    margin: 0 auto;
+}

@@ -24,13 +24,16 @@ header {
   font-weight: bold;
 }
 
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .header-menu-item {
-  display: inline-block;
-  float: right;
   margin: 43px 35px 0 0;
 }
 
-.header-menu-item:nth-child(1) {
+.header-menu-item:nth-child(6) {
   margin-right: 0;
 }
 

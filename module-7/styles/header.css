@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > a {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: "WisdomScript";
+}
+
+.header-logo {
+    margin-top: 50px;
+    color: #fed136;
+
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu-item{
+    margin: 55px 0 130px 0;
+}
+
+.header-menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-menu-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #222222;
+}
+
+.header-menu-item a:hover {
+    color: #fed136;
+}

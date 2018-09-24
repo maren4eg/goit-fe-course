@@ -1,0 +1,23 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(main.css);
+
+@font-face {
+    font-family: "DroidSerif";
+    src: url(../fonts/DroidSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: "WisdomScript";
+    src: url(../fonts/Wisdom\ Script\ AJ.otf)
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url(../fonts/roboto-slab-v7-latin-300.woff) format("woff");
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
