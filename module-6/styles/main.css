@@ -53,12 +53,12 @@
   left: 10px;
 }
 
-.section-content-link,
+.article-content-header,
 .section-content-text {
   padding: 10px 10px 10px 60px;
 }
 
-.section-content-link {
+.article-content-header {
   font-size: 14px;
   font-family: "Montserrat";
   text-decoration: none;
@@ -66,9 +66,7 @@
   color: #333333;
 }
 
-.section-content-link:hover {
-  text-decoration: underline;
-}
+
 
 .section-content-text {
   font-size: 16px;
