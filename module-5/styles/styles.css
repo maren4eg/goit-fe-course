@@ -6,11 +6,9 @@ body {
   overflow-x: hidden;
   background: #e9f0fd;
 }
-.wrapper {
-  margin: 0 auto;
-}
 
-.content {
+
+.container {
   width: 1110px;
   margin: 0 auto;
 }

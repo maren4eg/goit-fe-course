@@ -51,9 +51,14 @@
   font-size: 15px;
   font-weight: 300;
   color: #000;
-  font-style: italic;
+
+  
   padding-left: 10px;
-  border: 1px solid #999;
+  border: 1px solid #e7e7e7;
   border-right: none;
 }
 
+#email::placeholder {
+  color: #cfcfcf;
+  font-style: italic;
+}
