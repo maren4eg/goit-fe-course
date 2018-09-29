@@ -42,6 +42,7 @@ main {
   float: right;
 }
 .slider-post {
+  width: 750px;
   position: absolute;
   top: 290px;
   left: 50%;
