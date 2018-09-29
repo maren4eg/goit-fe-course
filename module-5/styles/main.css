@@ -1,16 +1,15 @@
 main {
   margin: 0 -15px;
+
+  background: #e9f0fd;
+  background-image: url(../images/slide4.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .main-slider {
-  position: relative;
   height: 600px;
-
-}
-.main-slider-img {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
 }
 
 .slider-content {
@@ -22,7 +21,7 @@ main {
   width: 100px;
   height: 100px;
   background: #1abc9c;
-  position: absolute;
+  margin: 225px 0 270px 0;
   top: 225px;
   outline: none;
   border: 0;
@@ -37,26 +36,26 @@ main {
   opacity: 1;
 }
 .button-prev {
-  left: 0px;
   transform: rotate(180deg);
 }
 .button-next {
-  right: 0px;
+  float: right;
 }
 .slider-post {
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 60px;
   font-family: "Roboto";
   color: #fff;
   text-transform: uppercase;
   line-height: 1.367;
   font-weight: bold;
-  position: absolute;
-  top: 220px;
-  left: 185px;
 }
 .slider-post > span {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 .section-header {
@@ -130,22 +129,24 @@ main {
   background: #323232;
 }
 
-.price {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  display: block;
-  width: 55px;
-  padding: 14px;
-  float: right;
-  background: #ffffff;
-  opacity: 0.4;
-  /* font-size: 18px;
+.product-name span {
+  font-size: 18px;
   font-family: "Roboto";
   color: rgb(255, 255, 255);
-  text-transform: uppercase; */
-  
+  float: right;
 }
+
+.price {
+  width: 22%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  opacity: 0.439;
+  z-index: 5;
+}
+
 
 .block-product-links {
   position: absolute;
@@ -165,6 +166,17 @@ main {
   background: #1abc9c;
 }
 
+.submenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
 .submenu-button {
   width: 50px;
   height: 50px;
@@ -182,32 +194,19 @@ main {
 }
 
 .heart {
-  position: absolute;
-  top: 75px;
-  left: 45px;
   background-image: url(../images/heart.svg);
 }
 
 .arrows {
-  position: absolute;
-  top: 75px;
-  left: 50%;
-  transform: translateX(-50%);
   background-image: url(../images/link.svg);
 }
 
 .clock {
-  position: absolute;
-  top: 75px;
-  right: 45px;
   background-image: url(../images/clock.svg);
 }
 
 .basket {
-  position: absolute;
   width: 165px;
-  bottom: 85px;
-  left: 45px;
   background-image: url(../images/basket.svg);
   background-color: #323232;
   font-size: 16px;
@@ -217,6 +216,7 @@ main {
   text-align: right;
   background-repeat: no-repeat;
   background-size: 25%;
+  margin-top: 5px;
 }
 
 .submenu-button:hover {
