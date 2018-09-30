@@ -67,22 +67,23 @@
                             contact us<br>
                             <span>Proin iaculis purus consequat sem cure.</span>
                         </h2>
-                        <div class="section-form">
-                            <div class="section-form-data">
-                                <form action="#">
-                                    <input id="name" type="text" placeholder="youre name"><br>
-                                    <input id="email" type="email" placeholder="your e-mail"><br>
-                                    <input id="subject" type="text" placeholder="subject">
-                                </form>
+                        <form class="form-container" action="#" method="get">
+                            <div class="data-input">
+                                <ul class="form-data">
+                                    <li class="form-data-list">
+                                        <input type="text" id="name" class="form-data-item" required placeholder="your name*">
+                                    </li>
+                                    <li class="form-data-list">
+                                        <input type="email" id="email" class="form-data-item" required placeholder="your e-mail*">
+                                    </li>
+                                    <li class="form-data-list">
+                                        <input type="text" id="subject" class="form-data-item" placeholder="subject">
+                                    </li>
+                                </ul>
+                                <textarea id="message" required placeholder="Your message*"></textarea>
                             </div>
-                            <div class="section-form-message">
-                                <form action="#">
-                                    <textarea name = "comments" rows="5" cols="45" placeholder="For comments">
-                                    </textarea>
-                                </form>
-                            </div>
-                        </div>
-                        <button id="button">submit</button>
+                            <input type="submit" value="send message" id="button">
+                        </form>
                     </section>
                 </div>
             </div>
