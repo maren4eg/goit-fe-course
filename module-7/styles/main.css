@@ -1,20 +1,23 @@
-.section-first-content-header {
+
+.main-content-header {
   font-size: 40px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   color: #222222;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
+  margin: 0 auto;
 }
 
-.section-first-content-header span {
+.main-content-header-description {
+  text-align: center;
   font-size: 16px;
   text-transform: none;
-  font-family: "DroidSerif";
+  font-family: "DroidSerif", serif;
   color: #777777;
   font-weight: normal;
-  margin-bottom: 100px;
+  margin: 25px 0 100px 0;
 }
 
 .main-content-post {
@@ -52,7 +55,7 @@
 
 .content-item-header {
   font-size: 18px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #222222;
   margin: 30px auto 25px auto;
@@ -69,35 +72,35 @@
 .main-form {
   width: 100%;
   margin: 0 auto;
-}
-
-.main-second-section {
   background: #222222;
   background-image: url(../images/Map-image.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 
-.section-form {
-  display: flex;
-}
 
-.section-second-content-header {
+.main-form-header {
   font-size: 40px;
   font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
-  margin: 110px auto 120px auto;
+  padding-top: 115px;
 }
 
-.section-second-content-header span {
+.main-form-header-description {
+  text-align: center;
   font-size: 16px;
   text-transform: none;
   font-family: "DroidSerif";
   color: #777777;
   font-weight: normal;
+  margin:25px 0 80px 0;
+}
+
+.form-container {
+  width: 100%;
 }
 
 .data-input {

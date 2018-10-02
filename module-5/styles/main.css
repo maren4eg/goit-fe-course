@@ -1,15 +1,16 @@
 main {
   margin: 0 -15px;
-
   background: #e9f0fd;
-  background-image: url(../images/slide4.png);
-  background-position: 0 0;
-  background-repeat: no-repeat;
+  position: relative;
+  
 }
 
 .main-slider {
-  height: 600px;
   position: relative;
+  height: 600px;
+  background-image: url(../images/slide4.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .slider-content {
@@ -18,11 +19,12 @@ main {
 }
 
 .button {
+  position: absolute;
+  top: 0px;
   width: 100px;
   height: 100px;
   background: #1abc9c;
   margin: 225px 0 270px 0;
-  top: 225px;
   outline: none;
   border: 0;
   background-image: url("../images/arrow.svg");
@@ -36,15 +38,16 @@ main {
   opacity: 1;
 }
 .button-prev {
+  float: left;
   transform: rotate(180deg);
 }
 .button-next {
-  float: right;
+  r0
 }
 .slider-post {
   width: 750px;
   position: absolute;
-  top: 290px;
+  top: 200px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 60px;
@@ -120,10 +123,8 @@ main {
 }
 
 .product-name {
-  display: block;
   width: 255px;
   padding: 14px;
-  float: left;
   font-size: 18px;
   font-family: "Roboto";
   color: rgb(255, 255, 255);
@@ -134,7 +135,6 @@ main {
 .product-name {
   font-size: 18px;
   font-family: "Roboto";
-  float: right;
   padding: 14px;
 }
 
@@ -147,8 +147,10 @@ main {
   bottom: 0;
   background: rgb(255, 255, 255, 0.439);
   z-index: 5;
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
 }
-
 
 .block-product-links {
   position: absolute;
@@ -176,7 +178,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .submenu-button {
