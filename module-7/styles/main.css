@@ -1,4 +1,3 @@
-
 .main-content-header {
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
@@ -6,8 +5,7 @@
   font-weight: bold;
   text-align: center;
   color: #222222;
-  margin-bottom: 25px;
-  margin: 0 auto;
+  margin: 130px 0 25px 0;
 }
 
 .main-content-header-description {
@@ -27,7 +25,7 @@
 }
 
 .main-content-item {
-  width: 30%;
+  width: 280px;
   text-align: center;
 }
 
@@ -78,15 +76,9 @@
   background-position: 100% 100%;
 }
 
-
-.main-form-header {
-  font-size: 40px;
-  font-family: "Montserrat";
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
+.form-header {
   padding-top: 115px;
+  color: #ffffff;
 }
 
 .main-form-header-description {
@@ -96,7 +88,7 @@
   font-family: "DroidSerif";
   color: #777777;
   font-weight: normal;
-  margin:25px 0 80px 0;
+  margin: 25px 0 80px 0;
 }
 
 .form-container {
@@ -110,31 +102,28 @@
   margin-bottom: 30px;
 }
 
-.form-data {
-  width: 44.15%;
-}
-
-.form-data-list {
-  width: 100%;
-}
-.form-data-item, #message {
-  width: 44.15%;
+.form-data-item,
+#message {
+  width: 415px;
   padding: 20px;
   border-radius: 4px;
   border: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #000;
+  text-transform: uppercase;
 }
 
-.form-data-item {
-  width: 100%;
-}
-
-#name, #email {
+#name,
+#email {
   margin-bottom: 30px;
 }
 
 .form-data-item::placeholder,
-#message::placeholder{
-  color: #bbbbbb;
+#message::placeholder {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(187, 187, 187);
   text-transform: uppercase;
 }
 
@@ -163,4 +152,5 @@
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 115px;
+  cursor: pointer;
 }
