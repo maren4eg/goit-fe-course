@@ -1,6 +1,20 @@
+header {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-cup {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   width: 320px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .registration-data {
@@ -43,42 +57,7 @@
   color: rgb(255, 255, 255);
 }
 
-.user-info-header {
-  font-size: 30px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-}
 
-.user-info-header-description {
-  font-size: 18px;
-  font-family: "Roboto";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
-  text-align: center;
-  margin: 25px 0 20px 0;
-}
-
-.find-partner {
-  display: block;
-  margin: 0 auto;
-  width: 280px;
-  height: 46px;
-  text-align: center;
-  text-decoration: none;
-  text-align: center;
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  line-height: 1.2;
-  padding: 16px;
-  background: #ff4e50;
-  border-radius: 46px;
-}
 
 @media (min-width: 660px) {
   .container {
