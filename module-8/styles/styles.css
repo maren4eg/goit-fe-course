@@ -3,4 +3,11 @@
 @import url(main.css);
 
 
-
+.substrate {
+  background: rgb(26, 25, 21);
+  background-image: url(../images/Vector-Smart-Object.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 140px 0;
+}

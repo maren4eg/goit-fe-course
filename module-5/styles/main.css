@@ -6,16 +6,21 @@ main {
 }
 
 .main-slider {
-  position: relative;
   height: 600px;
   background-image: url(../images/slide4.png);
-  background-position: 0 0;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .slider-content {
   width: 1110px;
   margin: 0 auto;
+}
+
+.container {
+  
+  position: relative;
 }
 
 .button {
@@ -38,11 +43,11 @@ main {
   opacity: 1;
 }
 .button-prev {
-  float: left;
+  left: 0;
   transform: rotate(180deg);
 }
 .button-next {
-  r0
+  right: 0;
 }
 .slider-post {
   width: 750px;
@@ -59,7 +64,8 @@ main {
 }
 .slider-post > span {
   font-size: 20px;
-  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .section-header {
