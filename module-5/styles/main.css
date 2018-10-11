@@ -126,6 +126,10 @@ main {
   background: #323232;
 }
 
+.cart-image {
+  position: relative;
+}
+
 .product-name {
   width: 200px;
   padding: 14px;
@@ -153,7 +157,7 @@ main {
   top: 10px;
   left: 10px;
   right: 10px;
-  bottom: 55px;
+  bottom: 10px;
   opacity: 0;
 }
 
