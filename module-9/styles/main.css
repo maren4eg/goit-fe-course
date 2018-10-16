@@ -1,0 +1,165 @@
+.user-info {
+  background: rgb(26, 25, 21);
+  background-image: url(../images/Vector-Smart-Object.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 300px 0 140px 0;
+}
+
+.user-info-header {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.user-info-header-description {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin: 25px 0 20px 0;
+}
+
+.find-partner {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 46px;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 16px;
+  background: #ff4e50;
+  border-radius: 46px;
+}
+.main-header {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 75px auto 20px auto;
+}
+
+.partners-cart {
+  width: 220px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.partners-cart-img {
+  position: relative;
+}
+
+.partners-cart-img img {
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+}
+
+.partners-cart-img::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.img-tv::after {
+  background: #ff4e50;
+  background-image: url(../images/Shape-128.png);
+  background-repeat: no-repeat;
+  background-position: 50% 45%;
+}
+
+.img-beaker::after {
+  background: #ffa507;
+  background-image: url(../images/beaker.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-bowl::after {
+  background: #1cd7ad;
+  background-image: url(../images/bowl.png);
+  background-repeat: no-repeat;
+  background-position: 45% 40%;
+}
+
+.img-twitter::after {
+  background: #4e73db;
+  background-image: url(../images/twitter.png);
+  background-repeat: no-repeat;
+  background-position: 45% 45%;
+}
+
+
+.partners-cart-name {
+  margin: 20px auto;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.partners-cart-post {
+  margin: 0 auto 30px auto;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.main-button {
+  display: block;
+  width: 280px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 16px;
+  border: 3px solid #ff4e50;
+  border-radius: 46px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 660px;
+    margin: 0 auto;
+  }
+
+  .partners-cart {
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 940px) {
+  .container {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
