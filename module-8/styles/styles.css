@@ -2,4 +2,14 @@
 @import url(header.css);
 @import url(main.css);
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
 
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+    font-weight: 300;
+}
