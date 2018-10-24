@@ -8,6 +8,8 @@
 }
 
 .user-info-header {
+  width: 300px;
+  margin: 0 auto;
   font-size: 30px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
