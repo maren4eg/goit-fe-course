@@ -24,7 +24,7 @@ header {
 }
 
 .registration-data-item {
-  width: 150px;
+  width: 200px;
   border: 3px solid #ffffff00;
   text-decoration: none;
   font-size: 14px;
@@ -57,5 +57,23 @@ header {
   color: rgb(255, 255, 255);
 }
 
+@media (min-width: 768px) {
+  .container {
+    min-width: 660px;
+  }
+  .header-logo {
+    margin: 0;
+    padding: 0;
+  }
+  .registration-data-item {
+    margin: 0;
+    padding: 0;
+  }
+}
 
+@media (min-width: 992px) {
+  .container {
+    min-width: 940px;
+  }
+}
 
