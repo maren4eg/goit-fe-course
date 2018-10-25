@@ -24,7 +24,7 @@ header {
 }
 
 .registration-data-item {
-  width: 200px;
+  width: 80px;
   border: 3px solid #ffffff00;
   text-decoration: none;
   font-size: 14px;
@@ -65,13 +65,14 @@ header {
     margin: 30px 0 0 0;
     padding: 0;
   }
-  .registration-data {
+
+  .header-registration {
     width: 160px;
   }
 
   .registration-data-item {
     margin: 0;
-    padding: 0;
+    padding: 15px;
   }
 }
 
@@ -80,4 +81,3 @@ header {
     min-width: 940px;
   }
 }
-
