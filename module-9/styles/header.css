@@ -70,6 +70,11 @@ header {
     width: 160px;
   }
 
+  .registration-data {
+    width: 160px;
+    margin: 0;
+  }
+
   .registration-data-item {
     margin: 0;
     padding: 15px;
