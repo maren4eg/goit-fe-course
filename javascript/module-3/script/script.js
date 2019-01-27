@@ -61,7 +61,7 @@ const isLoginUnique = function(allLogins, login) {
 
 const addLogin = function(allLogins, login) {
   if (isLoginValid(login)==true){
-    if (isLoginUnique(login)==false){
+    if (isLoginUnique(allLogins,login)==false){
       allLogins.push(login);
       return ("Логин успешно добавлен!");
     }else{
@@ -72,7 +72,8 @@ const addLogin = function(allLogins, login) {
   }
 };
 
-console.log(addLogin(logins,'Poly')); // 'Логин успешно добавлен!'
+console.log(addLogin(logins,'Ajax')); // 'Логин успешно добавлен!'
 console.log(addLogin(logins,'robotGoogles')); // 'Такой логин уже используется!'
 console.log(addLogin(logins,'Zod')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
 console.log(addLogin(logins,'jqueryisextremelyfast')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
+console.log(logins)
