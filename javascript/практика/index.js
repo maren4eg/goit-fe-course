@@ -80,27 +80,142 @@
 
 
 
-function findLongestWord(str){
-    let arrayStr = str.split(" ");
-    let bigString = 0;
-    for(let el of arrayStr){
-        if(el.length > bigString.length){
-            bigstring = el
-        }
-    }
-    return bigString;
+// function findLongestWord(str){
+//     let arrayStr = str.split(" ");
+//     let bigString = 0;
+//     for(let el of arrayStr){
+//         if(el.length > bigString.length){
+//             bigstring = el
+//         }
+//     }
+//     return bigString;
+// }
+
+
+
+// console.log(
+//     findLongestWord("The quick brown fox jumped over the lazy dog")
+//   ); // 'jumped'
+  
+//   console.log(
+//     findLongestWord("Google do a roll")
+//   ); // 'Google'
+  
+//   console.log(
+//     findLongestWord("May the force be with you")
+//   ); // 'force'
+
+
+// const user = {
+//     name: "Mango",
+//     age: 20,
+//     hobby: "html",
+//     premium: true
+//   };
+//   user.mood = "happy";
+//   user.hobby = "javascript";
+//   user.premium = false;
+
+//   const keys = Object.keys(user);
+
+//   console.log(keys);
+
+//   for (let key of keys){
+//     console.log(`${key}: ${user[key]}`);
+//   }
+
+//   const entries = Object.entries(user);
+//   console.log(entries);
+
+//   for (let entry of entries){
+//     let keys = entry[0];
+//     let values = entry[1];
+//     console.log(`${keys}: ${values}`);
+  // }
+
+
+//   const tasksCompleted = {
+//     ann: 29,
+//     david: 35,
+//     helen: 1,
+//     lorence: 99
+//   };
+
+//   let max = 0;
+//   let name;
+
+//   const keys = Object.keys(tasksCompleted);
+//   console.log(keys);
+  
+
+//  for (let key of keys){
+//    if(max < tasksCompleted[key]){
+//      max = tasksCompleted[key];
+//      name = key;
+//    }
+//  }
+
+//  console.log(`${name}: ${max}`);
+
+// const countProps = function(obj){
+//   let keys = Object.keys(obj)
+//   console.log(keys.length)
+// }
+
+
+// console.log(
+//   countProps({})
+// );
+
+// console.log(
+//   countProps({a: 1, b: 3, c: 'hello'})
+// );
+
+// function isObjectEmpty(obj){
+//   let bull;
+//   const keys = Object.keys(obj)
+//   console.log(keys.length);
+//   if (keys.length != 0){
+//     return false;
+//   }else{
+//     return true;
+//   }
+// }
+
+
+// console.log(
+//   isObjectEmpty({})
+// ); // true
+
+// console.log(
+//   isObjectEmpty({a: 1})
+// ); // false
+
+// console.log(
+//   isObjectEmpty({a: 1, b: 2})
+// ); // false
+
+// function countTotalSalary(obj){
+//   let total = 0;
+//   const values = Object.values(obj);
+//   for (const value of values){
+//     total += value;
+//   }
+//   console.log(total);
+// }
+
+// console.log(
+//   countTotalSalary({})
+// ); // 0
+
+// console.log(
+//   countTotalSalary({
+//     mango: 100,
+//     poly: 150,
+//     alfred: 80
+//   })
+// ); // 330
+
+function getAllPropValues (arr, prop){
+  
 }
-
-
-
-console.log(
-    findLongestWord("The quick brown fox jumped over the lazy dog")
-  ); // 'jumped'
-  
-  console.log(
-    findLongestWord("Google do a roll")
-  ); // 'Google'
-  
-  console.log(
-    findLongestWord("May the force be with you")
-  ); // 'force'
